@@ -10,6 +10,7 @@ import {
 } from "recharts";
 
 const Chart = ({ sparklineData }) => {
+  console.log(sparklineData);
   const formattedData = sparklineData
     .map((price, idx) => {
       if (idx % 6 === 0) {
